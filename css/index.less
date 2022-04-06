@@ -12,6 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 @baseFont:50;
 
 // 顶部搜索框
@@ -27,19 +28,34 @@ body{
     .classify{
         width: (44rem / @baseFont);
         height: (70rem / @baseFont);
-        background-color: pink;
+        background: url(../images/classify.png) no-repeat;
+        background-size: (44rem / @baseFont) (70rem / @baseFont);
         margin: (11rem / @baseFont) (25rem / @baseFont) (7rem / @baseFont) (24rem / @baseFont);
     }
 
     .search{
         flex: 1;
-        background-color: purple;
+        input{
+            width: 100%;
+            border: none;
+            height: (66rem / @baseFont);
+            border-radius: (33rem / @baseFont);
+            background-color: #fff2cc;
+            margin-top: (12rem / @baseFont);
+            outline: none;
+            font-size:(25rem / @baseFont);
+            padding-left: (55rem / @baseFont);
+            color: #757575;
+        }
     }
 
     .login{
         width: (75rem / @baseFont);
         height: (70rem / @baseFont);
-        background-color: skyblue;
         margin: (10rem / @baseFont);
+        font-size: (25rem / @baseFont);
+        text-align: center;
+        color: #fff;
+        line-height: (70rem / @baseFont);
     }
 }
