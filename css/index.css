@@ -125,3 +125,11 @@ body {
 .ad a img {
   width: 100%;
 }
+nav {
+  width: 15rem;
+}
+nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+}
