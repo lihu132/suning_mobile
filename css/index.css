@@ -64,3 +64,29 @@ body {
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
 }
+.search-content {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
+  height: 1.76rem;
+  background-color: #ffc001;
+}
+.search-content .classify {
+  width: 0.88rem;
+  height: 1.4rem;
+  background-color: pink;
+  margin: 0.22rem 0.5rem 0.14rem 0.48rem;
+}
+.search-content .search {
+  flex: 1;
+  background-color: purple;
+}
+.search-content .login {
+  width: 1.5rem;
+  height: 1.4rem;
+  background-color: skyblue;
+  margin: 0.2rem;
+}
