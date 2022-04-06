@@ -4,6 +4,16 @@ html {
 a {
   text-decoration: none;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
 @media screen and (min-width: 320px) {
   html {
     font-size: 21.33333333px;
